@@ -2,7 +2,6 @@ var myTime=document.getElementById("time");
 var days=document.getElementById("days");
 var setAlarm=document.getElementById("setAlarm");
 var clearAlarm=document.getElementById("clearAlarm");
-console.log(clearAlarm)
 var hour=document.getElementById("hour");
 var minute=document.getElementById("minute");
 var second=document.getElementById("second");
