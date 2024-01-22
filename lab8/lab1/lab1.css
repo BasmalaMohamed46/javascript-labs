@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gallery {
+    display: flex;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+#gallery img {
+    height: auto;
+}
+
+#left, #right {
+    width: 20%;
+    margin: 0 5px;
+    max-height: 60vh; /* Adjusted max-height for left and right images */
+}
+
+#center {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+}
+
+#leftArrow, #rightArrow {
+    width: 30px;
+    cursor: pointer;
+}
+
+#leftArrow, #rightArrow {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#leftArrow {
+    left: 100px;
+}
+
+#rightArrow {
+    right: 100px;
+}

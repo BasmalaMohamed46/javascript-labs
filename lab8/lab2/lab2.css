@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aaa;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#clock, #alarm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#days {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#days p {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30px;
+    margin: 0 5px;
+}
+
+#time {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#alarm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#setters {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#hdiv, #mdiv, #sdiv {
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#hdiv label, #mdiv label, #sdiv label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#setters input {
+    padding: 10px;
+    text-align: center;
+    width: 60px; /* Set a fixed width for the input fields */
+}
+
+#buttons {
+    display: flex;
+}
+
+#setAlarm {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+}
+
+#setAlarm:hover {
+    background-color: #2980b9;
+}
+
+#clearAlarm {
+    padding: 10px;
+    background-color: #ff0000; /* Red color for Clear Alarm button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+}
+
+#clearAlarm:hover {
+    background-color: #cc0000; /* Darker red color on hover */
+}
+
+#buttons button {
+    margin-right: 10px;
+    margin-top: 10px;
+}

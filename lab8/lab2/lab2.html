@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab2.css">
+</head>
+<body>
+    <div id="clock">
+        <div id="days">
+            <p>SUN</p>
+            <p>MON</p>
+            <p>TUE</p>
+            <p>WED</p>
+            <p>THU</p>
+            <p>FRI</p>
+            <p>SAT</p>
+        </div>
+        <div id="time"></div>
+    </div>
+    
+    <div id="alarm">
+        <h1>Set Alarm After</h1>
+        <div id="setters">
+            <div id="hdiv">
+                <label for="hour">HOURS</label>
+                <input type="number" id="hour" min="0" max="23" placeholder="Hour" value="0">
+            </div>
+            <div id="mdiv">
+                <label for="minute">MINUTES</label>
+                <input type="number" id="minute" min="0" max="59" placeholder="Minute" value="0">
+            </div>
+            <div id="sdiv">
+                <label for="second">SECONDS</label>
+                <input type="number" id="second" min="0" max="59" placeholder="Second" value="0">
+            </div>  
+       </div>
+       <div id="buttons">
+            <button id="setAlarm">Set</button>
+            <button id="clearAlarm">Clear</button>
+       </div>
+    </div>
+    <script src="lab2.js"></script>
+</body>
+</html>
