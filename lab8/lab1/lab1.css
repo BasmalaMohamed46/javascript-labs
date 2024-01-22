@@ -21,7 +21,7 @@ body {
 #left, #right {
     width: 20%;
     margin: 0 5px;
-    max-height: 60vh; /* Adjusted max-height for left and right images */
+    max-height: 60vh; 
 }
 
 #center {
