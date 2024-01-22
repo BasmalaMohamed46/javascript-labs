@@ -28,4 +28,4 @@ var rightFun=function()
 
 rBtn.addEventListener("click",rightFun);
 
-setInterval(rightFun,5000);
+setInterval(rightFun,3000);
